@@ -7,6 +7,11 @@
 		<string>sql</string>
 		<string>ddl</string>
 		<string>dml</string>
+		<string>pks</string>
+		<string>pkb</string>
+		<string>fnc</string>
+		<string>prc</string>
+		<string>pck</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?i)^\s*(begin|if|loop)\b</string>
@@ -181,7 +186,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(with|select|from|where|order\s+by|group\s+by|asc|desc|update|set|insert|into|values|delete|from|distinct|union|having|limit|table|between|of|all|any|exists|rownum|cursor)\b</string>
+			<string>(?i)\b(with|select|from|join|where|order\s+by|group\s+by|asc|desc|update|set|insert|into|values|delete|from|distinct|union|having|limit|table|between|of|all|any|exists|rownum|cursor|returning|merge|using|on|matched)\b</string>
 			<key>name</key>
 			<string>keyword.other.sql.oracle</string>
 		</dict>
